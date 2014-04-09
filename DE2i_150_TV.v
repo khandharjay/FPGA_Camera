@@ -615,7 +615,27 @@ YCbCr2RGB 			u8	(	//	Output Side
 							//	Control Signal
 							.iRESET(!DLY2),
 							.iCLK(TD_CLK27));
+							
+							
 
+
+//	For the new Module Controller
+//wire	[9:0]	tempRed;
+//wire	[9:0]	tempGreen;
+//wire	[9:0]	tempBlue;
+							
+/*NewModule u21(.iRed(mRed),
+				  .iGreen(mGreen),
+		   	  .iBlue(mBlue),
+				  .iCLK(TD_CLK27),
+				  .iRESET(!DLY2),
+				  .oRed(tempRed),
+				  .oGreen(tempGreen),
+				  .oBlue(tempBlue));
+				 
+				  
+				*/
+							
 //	VGA Controller
 wire [9:0] vga_r10;
 wire [9:0] vga_g10;

@@ -1,10 +1,10 @@
-/* Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Full Version */
+/* Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition */
 JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CGX150DF31) Path("D:/SVN/CW2/cd/DE2i-150_CDROM_v1.0.0/Demonstrations/FPGA/DE2i_150_TV/") File("DE2i_150_TV.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CGX150DF31) Path("C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/") File("DE2i_150_TV.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Apr 09 15:13:35 2014
+Fitter Status : Successful - Wed Apr 09 16:53:32 2014
 Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
 Revision Name : DE2i_150_TV
 Top-level Entity Name : DE2i_150_TV
 Family : Cyclone IV GX
 Device : EP4CGX150DF31C7
 Timing Models : Final
-Total logic elements : 2,427 / 149,760 ( 2 % )
-    Total combinational functions : 1,847 / 149,760 ( 1 % )
+Total logic elements : 2,432 / 149,760 ( 2 % )
+    Total combinational functions : 1,842 / 149,760 ( 1 % )
     Dedicated logic registers : 1,600 / 149,760 ( 1 % )
 Total registers : 1600
 Total pins : 459 / 508 ( 90 % )

@@ -1,5 +1,5 @@
 Flow report for DE2i_150_TV
-Wed Apr 09 15:14:27 2014
+Wed Apr 09 16:54:39 2014
 Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -38,15 +38,15 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Wed Apr 09 15:14:04 2014    ;
+; Flow Status                        ; Successful - Wed Apr 09 16:54:10 2014    ;
 ; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; DE2i_150_TV                              ;
 ; Top-level Entity Name              ; DE2i_150_TV                              ;
 ; Family                             ; Cyclone IV GX                            ;
 ; Device                             ; EP4CGX150DF31C7                          ;
 ; Timing Models                      ; Final                                    ;
-; Total logic elements               ; 2,427 / 149,760 ( 2 % )                  ;
-;     Total combinational functions  ; 1,847 / 149,760 ( 1 % )                  ;
+; Total logic elements               ; 2,432 / 149,760 ( 2 % )                  ;
+;     Total combinational functions  ; 1,842 / 149,760 ( 1 % )                  ;
 ;     Dedicated logic registers      ; 1,600 / 149,760 ( 1 % )                  ;
 ; Total registers                    ; 1600                                     ;
 ; Total pins                         ; 459 / 508 ( 90 % )                       ;
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/09/2014 15:11:03 ;
+; Start date & time ; 04/09/2014 16:52:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE2i_150_TV         ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
 ; Assignment Name                     ; Value                                                                                            ; Default Value ; Entity Name ; Section Id       ;
 +-------------------------------------+--------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
-; COMPILER_SIGNATURE_ID               ; 1098185904136.139707786305312                                                                    ; --            ; --          ; --               ;
+; COMPILER_SIGNATURE_ID               ; 1097632917512.139708392600764                                                                    ; --            ; --          ; --               ;
 ; ENABLE_SIGNALTAP                    ; On                                                                                               ; --            ; --          ; --               ;
 ; IP_TOOL_NAME                        ; ALTPLL                                                                                           ; --            ; --          ; --               ;
 ; IP_TOOL_VERSION                     ; 12.0                                                                                             ; --            ; --          ; --               ;
@@ -127,11 +127,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:48     ; 1.0                     ; 646 MB              ; 00:00:31                           ;
-; Fitter                    ; 00:01:37     ; 1.4                     ; 1000 MB             ; 00:01:42                           ;
-; Assembler                 ; 00:00:23     ; 1.0                     ; 510 MB              ; 00:00:21                           ;
-; TimeQuest Timing Analyzer ; 00:00:21     ; 1.0                     ; 641 MB              ; 00:00:19                           ;
-; Total                     ; 00:03:09     ; --                      ; --                  ; 00:02:53                           ;
+; Analysis & Synthesis      ; 00:00:25     ; 1.0                     ; 625 MB              ; 00:00:23                           ;
+; Fitter                    ; 00:01:01     ; 1.4                     ; 997 MB              ; 00:01:12                           ;
+; Assembler                 ; 00:00:30     ; 1.0                     ; 510 MB              ; 00:00:29                           ;
+; TimeQuest Timing Analyzer ; 00:00:27     ; 1.2                     ; 644 MB              ; 00:00:25                           ;
+; Total                     ; 00:02:23     ; --                      ; --                  ; 00:02:29                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
