@@ -1,0 +1,13 @@
+INTENDED_DEVICE_FAMILY="Cyclone IV GX"
+LPM_HINT=RAM_BLOCK_TYPE=M9K
+LPM_TYPE=altshift_taps
+NUMBER_OF_TAPS=1
+TAP_DISTANCE=640
+WIDTH=16
+DEVICE_FAMILY="Cyclone IV GX"
+aclr
+clken
+clock
+shiftin
+shiftout
+taps
