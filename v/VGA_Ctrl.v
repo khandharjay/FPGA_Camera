@@ -6,6 +6,7 @@ module	VGA_Ctrl	(	//	Host Side
 						oCurrent_Y,
 						oAddress,
 						oRequest,
+						oShift_Flag,
 						//	VGA Side
 						oVGA_R,
 						oVGA_G,
@@ -26,6 +27,7 @@ output		[21:0]	oAddress;
 output		[10:0]	oCurrent_X;
 output		[10:0]	oCurrent_Y;
 output				oRequest;
+output				oShift_Flag;
 //	VGA Side
 output		[9:0]	oVGA_R;
 output		[9:0]	oVGA_G;
@@ -49,6 +51,7 @@ parameter	H_BACK	=	48;
 parameter	H_ACT	=	640;
 parameter	H_BLANK	=	H_FRONT+H_SYNC+H_BACK;
 parameter	H_TOTAL	=	H_FRONT+H_SYNC+H_BACK+H_ACT;
+parameter	H_DLY		=	2; //number of pixels to delay due to buffering
 ////////////////////////////////////////////////////////////
 //	Vertical Parameter
 parameter	V_FRONT	=	11;
@@ -57,18 +60,20 @@ parameter	V_BACK	=	31;
 parameter	V_ACT	=	480;
 parameter	V_BLANK	=	V_FRONT+V_SYNC+V_BACK;
 parameter	V_TOTAL	=	V_FRONT+V_SYNC+V_BACK+V_ACT;
+parameter	V_DLY		=	2; //Number of lines to delay due to buffering
 ////////////////////////////////////////////////////////////
 assign	oVGA_SYNC	=	1'b1;			//	This pin is unused.
 assign	oVGA_BLANK	=	~((H_Cont<H_BLANK)||(V_Cont<V_BLANK));
+assign	oShift_Flag	=	~((H_Cont<(H_BLANK-H_DLY))||(V_Cont<(V_BLANK-V_DLY)));
 assign	oVGA_CLOCK	=	~iCLK;
 assign	oVGA_R		=	iRed;
 assign	oVGA_G		=	iGreen;
 assign	oVGA_B		=	iBlue;
 assign	oAddress	=	oCurrent_Y*H_ACT+oCurrent_X;
-assign	oRequest	=	((H_Cont>=H_BLANK && H_Cont<H_TOTAL)	&&
-						 (V_Cont>=V_BLANK && V_Cont<V_TOTAL));
-assign	oCurrent_X	=	(H_Cont>=H_BLANK)	?	H_Cont-H_BLANK	:	11'h0	;
-assign	oCurrent_Y	=	(V_Cont>=V_BLANK)	?	V_Cont-V_BLANK	:	11'h0	;
+assign	oRequest	=	((H_Cont>=H_BLANK-H_DLY && H_Cont<H_TOTAL-H_DLY)	&&
+						 (V_Cont>=V_BLANK-V_DLY && V_Cont<V_TOTAL-V_DLY));
+assign	oCurrent_X	=	(H_Cont>=(H_BLANK-H_DLY) && H_Cont<H_TOTAL)	?	H_Cont-(H_BLANK-H_DLY)	:	11'h0	;
+assign	oCurrent_Y	=	(V_Cont>=(V_BLANK-V_DLY) && V_Cont<V_TOTAL)	?	V_Cont-(V_BLANK-V_DLY)	:	11'h0	;
 
 //	Horizontal Generator: Refer to the pixel clock
 always@(posedge iCLK or negedge iRST_N)

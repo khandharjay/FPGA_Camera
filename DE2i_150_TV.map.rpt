@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE2i_150_TV
-Wed Apr 09 16:52:30 2014
+Fri Apr 11 17:44:46 2014
 Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -21,120 +21,137 @@ Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
  13. Removed Registers Triggering Further Register Optimizations
  14. General Register Statistics
  15. Inverted Register Statistics
- 16. Multiplexer Restructuring Statistics (Restructuring Performed)
- 17. Source assignments for DIV:u5|lpm_divide:LPM_DIVIDE_component|lpm_divide_pet:auto_generated|sign_div_unsign_3li:divider|alt_u_div_5ag:divider
- 18. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component
- 19. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
- 20. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
- 21. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
- 22. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
- 23. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
- 24. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
- 25. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
- 26. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
- 27. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
- 28. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
- 29. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
- 30. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
- 31. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component
- 32. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
- 33. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
- 34. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
- 35. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
- 36. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
- 37. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
- 38. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
- 39. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
- 40. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
- 41. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
- 42. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
- 43. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
- 44. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component
- 45. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
- 46. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
- 47. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
- 48. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
- 49. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
- 50. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
- 51. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
- 52. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
- 53. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
- 54. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
- 55. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
- 56. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
- 57. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component
- 58. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
- 59. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
- 60. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
- 61. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
- 62. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
- 63. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
- 64. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
- 65. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
- 66. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
- 67. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
- 68. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
- 69. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
- 70. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated
- 71. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result
- 72. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2|dffpipe_b3c:pre_result
- 73. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3|dffpipe_b3c:pre_result
- 74. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated
- 75. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result
- 76. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2|dffpipe_b3c:pre_result
- 77. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3|dffpipe_b3c:pre_result
- 78. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated
- 79. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result
- 80. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2|dffpipe_b3c:pre_result
- 81. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3|dffpipe_b3c:pre_result
- 82. Source assignments for Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_bi01:auto_generated|altsyncram_hbd1:altsyncram2
- 83. Source assignments for Line_Buffer:u11|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_bi01:auto_generated|altsyncram_hbd1:altsyncram2
- 84. Parameter Settings for User Entity Instance: DIV:u5|lpm_divide:LPM_DIVIDE_component
- 85. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6
- 86. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_PLL:sdram_pll1|altpll:altpll_component
- 87. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|control_interface:control1
- 88. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|command:command1
- 89. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|sdr_data_path:data_path1
- 90. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component
- 91. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component
- 92. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component
- 93. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component
- 94. Parameter Settings for User Entity Instance: YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component
- 95. Parameter Settings for User Entity Instance: YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component
- 96. Parameter Settings for User Entity Instance: YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component
- 97. Parameter Settings for User Entity Instance: VGA_Ctrl:u9
- 98. Parameter Settings for User Entity Instance: Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component
- 99. Parameter Settings for User Entity Instance: Line_Buffer:u11|altshift_taps:ALTSHIFT_TAPS_component
-100. Parameter Settings for User Entity Instance: I2C_AV_Config:u1
-101. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
-102. altpll Parameter Settings by Entity Instance
-103. dcfifo Parameter Settings by Entity Instance
-104. altmult_add Parameter Settings by Entity Instance
-105. altshift_taps Parameter Settings by Entity Instance
-106. Port Connectivity Checks: "I2C_AV_Config:u1|I2C_Controller:u0"
-107. Port Connectivity Checks: "Line_Buffer:u11"
-108. Port Connectivity Checks: "Line_Buffer:u10"
-109. Port Connectivity Checks: "VGA_Ctrl:u9"
-110. Port Connectivity Checks: "YCbCr2RGB:u8|MAC_3:u2"
-111. Port Connectivity Checks: "YCbCr2RGB:u8|MAC_3:u1"
-112. Port Connectivity Checks: "YCbCr2RGB:u8|MAC_3:u0"
-113. Port Connectivity Checks: "YCbCr2RGB:u8"
-114. Port Connectivity Checks: "YUV422_to_444:u7"
-115. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2"
-116. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1"
-117. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2"
-118. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1"
-119. Port Connectivity Checks: "Sdram_Control_4Port:u6|sdr_data_path:data_path1"
-120. Port Connectivity Checks: "Sdram_Control_4Port:u6|control_interface:control1"
-121. Port Connectivity Checks: "Sdram_Control_4Port:u6"
-122. Port Connectivity Checks: "DIV:u5"
-123. Port Connectivity Checks: "ITU_656_Decoder:u4"
-124. Port Connectivity Checks: "TD_Detect:u2"
-125. Port Connectivity Checks: "SEG7_LUT_8:u0"
-126. SignalTap II Logic Analyzer Settings
-127. Elapsed Time Per Partition
-128. Connections to In-System Debugging Instance "auto_signaltap_0"
-129. Analysis & Synthesis Messages
+ 16. Registers Packed Into Inferred Megafunctions
+ 17. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 18. Source assignments for DIV:u5|lpm_divide:LPM_DIVIDE_component|lpm_divide_pet:auto_generated|sign_div_unsign_3li:divider|alt_u_div_5ag:divider
+ 19. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component
+ 20. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
+ 21. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
+ 22. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
+ 23. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
+ 24. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
+ 25. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
+ 26. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
+ 27. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
+ 28. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
+ 29. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
+ 30. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
+ 31. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
+ 32. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component
+ 33. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
+ 34. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
+ 35. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
+ 36. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
+ 37. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
+ 38. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
+ 39. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
+ 40. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
+ 41. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
+ 42. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
+ 43. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
+ 44. Source assignments for Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
+ 45. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component
+ 46. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
+ 47. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
+ 48. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
+ 49. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
+ 50. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
+ 51. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
+ 52. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
+ 53. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
+ 54. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
+ 55. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
+ 56. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
+ 57. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
+ 58. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component
+ 59. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated
+ 60. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p
+ 61. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p
+ 62. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram
+ 63. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp
+ 64. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp
+ 65. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp
+ 66. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_qld:rs_dgwp|dffpipe_pe9:dffpipe13
+ 67. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_brp
+ 68. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:ws_bwp
+ 69. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp
+ 70. Source assignments for Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|alt_synch_pipe_rld:ws_dgrp|dffpipe_qe9:dffpipe16
+ 71. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated
+ 72. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result
+ 73. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2|dffpipe_b3c:pre_result
+ 74. Source assignments for YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3|dffpipe_b3c:pre_result
+ 75. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated
+ 76. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result
+ 77. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2|dffpipe_b3c:pre_result
+ 78. Source assignments for YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3|dffpipe_b3c:pre_result
+ 79. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated
+ 80. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result
+ 81. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2|dffpipe_b3c:pre_result
+ 82. Source assignments for YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3|dffpipe_b3c:pre_result
+ 83. Source assignments for Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_bi01:auto_generated|altsyncram_hbd1:altsyncram2
+ 84. Source assignments for Line_Buffer:u11|altshift_taps:ALTSHIFT_TAPS_component|shift_taps_bi01:auto_generated|altsyncram_hbd1:altsyncram2
+ 85. Source assignments for buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated|altsyncram_iu81:altsyncram2
+ 86. Source assignments for buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated|altsyncram_mr81:altsyncram2
+ 87. Source assignments for altshift_taps:temp_buffer_rtl_0|shift_taps_2am:auto_generated|altsyncram_lo31:altsyncram4
+ 88. Parameter Settings for User Entity Instance: DIV:u5|lpm_divide:LPM_DIVIDE_component
+ 89. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6
+ 90. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_PLL:sdram_pll1|altpll:altpll_component
+ 91. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|control_interface:control1
+ 92. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|command:command1
+ 93. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|sdr_data_path:data_path1
+ 94. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component
+ 95. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component
+ 96. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component
+ 97. Parameter Settings for User Entity Instance: Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component
+ 98. Parameter Settings for User Entity Instance: YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component
+ 99. Parameter Settings for User Entity Instance: YCbCr2RGB:u8|MAC_3:u1|altmult_add:ALTMULT_ADD_component
+100. Parameter Settings for User Entity Instance: YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component
+101. Parameter Settings for User Entity Instance: VGA_Ctrl:u9
+102. Parameter Settings for User Entity Instance: Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component
+103. Parameter Settings for User Entity Instance: Line_Buffer:u11|altshift_taps:ALTSHIFT_TAPS_component
+104. Parameter Settings for User Entity Instance: I2C_AV_Config:u1
+105. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+106. Parameter Settings for Inferred Entity Instance: buffer3:delayer|altshift_taps:line1_rtl_0
+107. Parameter Settings for Inferred Entity Instance: buffer3:delayer|altshift_taps:line3_rtl_0
+108. Parameter Settings for Inferred Entity Instance: altshift_taps:temp_buffer_rtl_0
+109. altpll Parameter Settings by Entity Instance
+110. dcfifo Parameter Settings by Entity Instance
+111. altmult_add Parameter Settings by Entity Instance
+112. altshift_taps Parameter Settings by Entity Instance
+113. Port Connectivity Checks: "I2C_AV_Config:u1|I2C_Controller:u0"
+114. Port Connectivity Checks: "Line_Buffer:u11"
+115. Port Connectivity Checks: "Line_Buffer:u10"
+116. Port Connectivity Checks: "VGA_Ctrl:u9"
+117. Port Connectivity Checks: "intensityCalc:iFor[8].iCalc"
+118. Port Connectivity Checks: "intensityCalc:iFor[7].iCalc"
+119. Port Connectivity Checks: "intensityCalc:iFor[6].iCalc"
+120. Port Connectivity Checks: "intensityCalc:iFor[5].iCalc"
+121. Port Connectivity Checks: "intensityCalc:iFor[4].iCalc"
+122. Port Connectivity Checks: "intensityCalc:iFor[3].iCalc"
+123. Port Connectivity Checks: "intensityCalc:iFor[2].iCalc"
+124. Port Connectivity Checks: "intensityCalc:iFor[1].iCalc"
+125. Port Connectivity Checks: "intensityCalc:iFor[0].iCalc"
+126. Port Connectivity Checks: "buffer3:delayer"
+127. Port Connectivity Checks: "YCbCr2RGB:u8|MAC_3:u2"
+128. Port Connectivity Checks: "YCbCr2RGB:u8|MAC_3:u1"
+129. Port Connectivity Checks: "YCbCr2RGB:u8|MAC_3:u0"
+130. Port Connectivity Checks: "YCbCr2RGB:u8"
+131. Port Connectivity Checks: "YUV422_to_444:u7"
+132. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2"
+133. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1"
+134. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2"
+135. Port Connectivity Checks: "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1"
+136. Port Connectivity Checks: "Sdram_Control_4Port:u6|sdr_data_path:data_path1"
+137. Port Connectivity Checks: "Sdram_Control_4Port:u6|control_interface:control1"
+138. Port Connectivity Checks: "Sdram_Control_4Port:u6"
+139. Port Connectivity Checks: "DIV:u5"
+140. Port Connectivity Checks: "ITU_656_Decoder:u4"
+141. Port Connectivity Checks: "TD_Detect:u2"
+142. Port Connectivity Checks: "SEG7_LUT_8:u0"
+143. SignalTap II Logic Analyzer Settings
+144. Elapsed Time Per Partition
+145. Connections to In-System Debugging Instance "auto_signaltap_0"
+146. Analysis & Synthesis Messages
 
 
 
@@ -160,18 +177,18 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +------------------------------------+------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 09 16:52:30 2014    ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 11 17:44:46 2014    ;
 ; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
 ; Revision Name                      ; DE2i_150_TV                              ;
 ; Top-level Entity Name              ; DE2i_150_TV                              ;
 ; Family                             ; Cyclone IV GX                            ;
-; Total logic elements               ; 2,462                                    ;
-;     Total combinational functions  ; 1,838                                    ;
-;     Dedicated logic registers      ; 1,600                                    ;
-; Total registers                    ; 1600                                     ;
+; Total logic elements               ; 2,829                                    ;
+;     Total combinational functions  ; 2,096                                    ;
+;     Dedicated logic registers      ; 1,779                                    ;
+; Total registers                    ; 1779                                     ;
 ; Total pins                         ; 459                                      ;
 ; Total virtual pins                 ; 0                                        ;
-; Total memory bits                  ; 106,464                                  ;
+; Total memory bits                  ; 144,732                                  ;
 ; Embedded Multiplier 9-bit elements ; 18                                       ;
 ; Total GXB Receiver Channel PCS     ; 0                                        ;
 ; Total GXB Receiver Channel PMA     ; 0                                        ;
@@ -313,6 +330,10 @@ applicable agreement for further details.
 ; Sdram_Control_4Port/sdr_data_path.v       ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/Sdram_Control_4Port/sdr_data_path.v       ;         ;
 ; Sdram_Control_4Port/control_interface.v   ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/Sdram_Control_4Port/control_interface.v   ;         ;
 ; Sdram_Control_4Port/command.v             ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/Sdram_Control_4Port/command.v             ;         ;
+; buffer3.v                                 ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/buffer3.v                                 ;         ;
+; intensityCalc.v                           ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/intensityCalc.v                           ;         ;
+; edgedetectH.v                             ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/edgedetectH.v                             ;         ;
+; edgedetectV.v                             ; yes             ; User Verilog HDL File        ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/edgedetectV.v                             ;         ;
 ; lpm_divide.tdf                            ; yes             ; Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/lpm_divide.tdf                                   ;         ;
 ; abs_divider.inc                           ; yes             ; Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/abs_divider.inc                                  ;         ;
 ; sign_div_unsign.inc                       ; yes             ; Megafunction                 ; c:/altera/12.1/quartus/libraries/megafunctions/sign_div_unsign.inc                              ;         ;
@@ -404,6 +425,18 @@ applicable agreement for further details.
 ; sld_rom_sr.vhd                            ; yes             ; Encrypted Megafunction       ; c:/altera/12.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                   ;         ;
 ; sld_hub.vhd                               ; yes             ; Encrypted Megafunction       ; c:/altera/12.1/quartus/libraries/megafunctions/sld_hub.vhd                                      ;         ;
 ; sld_jtag_hub.vhd                          ; yes             ; Encrypted Megafunction       ; c:/altera/12.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                 ;         ;
+; db/shift_taps_70n.tdf                     ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/shift_taps_70n.tdf                     ;         ;
+; db/altsyncram_iu81.tdf                    ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/altsyncram_iu81.tdf                    ;         ;
+; db/cntr_f3g.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/cntr_f3g.tdf                           ;         ;
+; db/cmpr_2mc.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/cmpr_2mc.tdf                           ;         ;
+; db/shift_taps_3vm.tdf                     ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/shift_taps_3vm.tdf                     ;         ;
+; db/altsyncram_mr81.tdf                    ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/altsyncram_mr81.tdf                    ;         ;
+; db/cntr_r1g.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/cntr_r1g.tdf                           ;         ;
+; db/shift_taps_2am.tdf                     ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/shift_taps_2am.tdf                     ;         ;
+; db/altsyncram_lo31.tdf                    ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/altsyncram_lo31.tdf                    ;         ;
+; db/add_sub_s7e.tdf                        ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/add_sub_s7e.tdf                        ;         ;
+; db/cntr_0tf.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/cntr_0tf.tdf                           ;         ;
+; db/cmpr_ikc.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/Jay/FPGA/System_CD/Demonstrations/FPGA/DE2i_150_TV/db/cmpr_ikc.tdf                           ;         ;
 +-------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------+---------+
 
 
@@ -413,14 +446,14 @@ applicable agreement for further details.
 ; Resource                 ; Usage            ;
 +--------------------------+------------------+
 ; I/O pins                 ; 459              ;
-; Total memory bits        ; 106464           ;
+; Total memory bits        ; 144732           ;
 ; DSP block 9-bit elements ; 18               ;
 ; Total PLLs               ; 1                ;
 ;     -- PLLs              ; 1                ;
 ;                          ;                  ;
-; Maximum fan-out          ; 656              ;
-; Total fan-out            ; 13694            ;
-; Average fan-out          ; 2.92             ;
+; Maximum fan-out          ; 806              ;
+; Total fan-out            ; 15555            ;
+; Average fan-out          ; 3.00             ;
 +--------------------------+------------------+
 
 
@@ -429,14 +462,14 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                              ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                               ; Library Name ;
 +---------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |DE2i_150_TV                                                                                            ; 1838 (46)         ; 1600 (0)     ; 106464      ; 18           ; 0       ; 9         ; 0         ; 459  ; 0            ; |DE2i_150_TV                                                                                                                                                                                                                                                                                                                                      ;              ;
+; |DE2i_150_TV                                                                                            ; 2096 (70)         ; 1779 (36)    ; 144732      ; 18           ; 0       ; 9         ; 0         ; 459  ; 0            ; |DE2i_150_TV                                                                                                                                                                                                                                                                                                                                      ;              ;
 ;    |DIV:u5|                                                                                             ; 60 (0)            ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|DIV:u5                                                                                                                                                                                                                                                                                                                               ;              ;
 ;       |lpm_divide:LPM_DIVIDE_component|                                                                 ; 60 (0)            ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|DIV:u5|lpm_divide:LPM_DIVIDE_component                                                                                                                                                                                                                                                                                               ;              ;
 ;          |lpm_divide_pet:auto_generated|                                                                ; 60 (0)            ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|DIV:u5|lpm_divide:LPM_DIVIDE_component|lpm_divide_pet:auto_generated                                                                                                                                                                                                                                                                 ;              ;
 ;             |sign_div_unsign_3li:divider|                                                               ; 60 (0)            ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|DIV:u5|lpm_divide:LPM_DIVIDE_component|lpm_divide_pet:auto_generated|sign_div_unsign_3li:divider                                                                                                                                                                                                                                     ;              ;
 ;                |alt_u_div_5ag:divider|                                                                  ; 60 (60)           ; 10 (10)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|DIV:u5|lpm_divide:LPM_DIVIDE_component|lpm_divide_pet:auto_generated|sign_div_unsign_3li:divider|alt_u_div_5ag:divider                                                                                                                                                                                                               ;              ;
-;    |I2C_AV_Config:u1|                                                                                   ; 118 (72)          ; 71 (43)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|I2C_AV_Config:u1                                                                                                                                                                                                                                                                                                                     ;              ;
-;       |I2C_Controller:u0|                                                                               ; 46 (46)           ; 28 (28)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|I2C_AV_Config:u1|I2C_Controller:u0                                                                                                                                                                                                                                                                                                   ;              ;
+;    |I2C_AV_Config:u1|                                                                                   ; 117 (72)          ; 71 (43)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|I2C_AV_Config:u1                                                                                                                                                                                                                                                                                                                     ;              ;
+;       |I2C_Controller:u0|                                                                               ; 45 (45)           ; 28 (28)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|I2C_AV_Config:u1|I2C_Controller:u0                                                                                                                                                                                                                                                                                                   ;              ;
 ;    |ITU_656_Decoder:u4|                                                                                 ; 50 (50)           ; 80 (80)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|ITU_656_Decoder:u4                                                                                                                                                                                                                                                                                                                   ;              ;
 ;    |Line_Buffer:u10|                                                                                    ; 27 (0)            ; 21 (0)       ; 10208       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|Line_Buffer:u10                                                                                                                                                                                                                                                                                                                      ;              ;
 ;       |altshift_taps:ALTSHIFT_TAPS_component|                                                           ; 27 (0)            ; 21 (0)       ; 10208       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component                                                                                                                                                                                                                                                                                ;              ;
@@ -518,7 +551,7 @@ applicable agreement for further details.
 ;       |command:command1|                                                                                ; 59 (59)           ; 47 (47)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1                                                                                                                                                                                                                                                                                              ;              ;
 ;       |control_interface:control1|                                                                      ; 64 (64)           ; 54 (54)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|Sdram_Control_4Port:u6|control_interface:control1                                                                                                                                                                                                                                                                                    ;              ;
 ;    |TD_Detect:u2|                                                                                       ; 17 (17)           ; 14 (14)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|TD_Detect:u2                                                                                                                                                                                                                                                                                                                         ;              ;
-;    |VGA_Ctrl:u9|                                                                                        ; 72 (72)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|VGA_Ctrl:u9                                                                                                                                                                                                                                                                                                                          ;              ;
+;    |VGA_Ctrl:u9|                                                                                        ; 90 (90)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|VGA_Ctrl:u9                                                                                                                                                                                                                                                                                                                          ;              ;
 ;    |YCbCr2RGB:u8|                                                                                       ; 275 (113)         ; 158 (78)     ; 0           ; 18           ; 0       ; 9         ; 0         ; 0    ; 0            ; |DE2i_150_TV|YCbCr2RGB:u8                                                                                                                                                                                                                                                                                                                         ;              ;
 ;       |MAC_3:u0|                                                                                        ; 54 (0)            ; 27 (0)       ; 0           ; 6            ; 0       ; 3         ; 0         ; 0    ; 0            ; |DE2i_150_TV|YCbCr2RGB:u8|MAC_3:u0                                                                                                                                                                                                                                                                                                                ;              ;
 ;          |altmult_add:ALTMULT_ADD_component|                                                            ; 54 (0)            ; 27 (0)       ; 0           ; 6            ; 0       ; 3         ; 0         ; 0    ; 0            ; |DE2i_150_TV|YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component                                                                                                                                                                                                                                                                              ;              ;
@@ -539,8 +572,33 @@ applicable agreement for further details.
 ;                |ded_mult_4k91:ded_mult2|                                                                ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0         ; 0    ; 0            ; |DE2i_150_TV|YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult2                                                                                                                                                                                                                         ;              ;
 ;                |ded_mult_4k91:ded_mult3|                                                                ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0         ; 0    ; 0            ; |DE2i_150_TV|YCbCr2RGB:u8|MAC_3:u2|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult3                                                                                                                                                                                                                         ;              ;
 ;    |YUV422_to_444:u7|                                                                                   ; 8 (8)             ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|YUV422_to_444:u7                                                                                                                                                                                                                                                                                                                     ;              ;
-;    |sld_hub:auto_hub|                                                                                   ; 138 (1)           ; 94 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                     ;              ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                    ; 137 (99)          ; 94 (66)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                        ;              ;
+;    |altshift_taps:temp_buffer_rtl_0|                                                                    ; 7 (0)             ; 4 (0)        ; 36          ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|altshift_taps:temp_buffer_rtl_0                                                                                                                                                                                                                                                                                                      ;              ;
+;       |shift_taps_2am:auto_generated|                                                                   ; 7 (2)             ; 4 (2)        ; 36          ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|altshift_taps:temp_buffer_rtl_0|shift_taps_2am:auto_generated                                                                                                                                                                                                                                                                        ;              ;
+;          |altsyncram_lo31:altsyncram4|                                                                  ; 0 (0)             ; 0 (0)        ; 36          ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|altshift_taps:temp_buffer_rtl_0|shift_taps_2am:auto_generated|altsyncram_lo31:altsyncram4                                                                                                                                                                                                                                            ;              ;
+;          |cntr_0tf:cntr1|                                                                               ; 5 (5)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|altshift_taps:temp_buffer_rtl_0|shift_taps_2am:auto_generated|cntr_0tf:cntr1                                                                                                                                                                                                                                                         ;              ;
+;    |buffer3:delayer|                                                                                    ; 52 (0)            ; 93 (72)      ; 38232       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer                                                                                                                                                                                                                                                                                                                      ;              ;
+;       |altshift_taps:line1_rtl_0|                                                                       ; 27 (0)            ; 11 (0)       ; 15336       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line1_rtl_0                                                                                                                                                                                                                                                                                            ;              ;
+;          |shift_taps_70n:auto_generated|                                                                ; 27 (0)            ; 11 (0)       ; 15336       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated                                                                                                                                                                                                                                                              ;              ;
+;             |altsyncram_iu81:altsyncram2|                                                               ; 0 (0)             ; 0 (0)        ; 15336       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated|altsyncram_iu81:altsyncram2                                                                                                                                                                                                                                  ;              ;
+;             |cntr_f3g:cntr1|                                                                            ; 27 (24)           ; 11 (11)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated|cntr_f3g:cntr1                                                                                                                                                                                                                                               ;              ;
+;                |cmpr_2mc:cmpr4|                                                                         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated|cntr_f3g:cntr1|cmpr_2mc:cmpr4                                                                                                                                                                                                                                ;              ;
+;       |altshift_taps:line3_rtl_0|                                                                       ; 25 (0)            ; 10 (0)       ; 22896       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line3_rtl_0                                                                                                                                                                                                                                                                                            ;              ;
+;          |shift_taps_3vm:auto_generated|                                                                ; 25 (0)            ; 10 (0)       ; 22896       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated                                                                                                                                                                                                                                                              ;              ;
+;             |altsyncram_mr81:altsyncram2|                                                               ; 0 (0)             ; 0 (0)        ; 22896       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated|altsyncram_mr81:altsyncram2                                                                                                                                                                                                                                  ;              ;
+;             |cntr_r1g:cntr1|                                                                            ; 25 (22)           ; 10 (10)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated|cntr_r1g:cntr1                                                                                                                                                                                                                                               ;              ;
+;                |cmpr_1mc:cmpr4|                                                                         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated|cntr_r1g:cntr1|cmpr_1mc:cmpr4                                                                                                                                                                                                                                ;              ;
+;    |edgedetectH:Horiz|                                                                                  ; 38 (38)           ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|edgedetectH:Horiz                                                                                                                                                                                                                                                                                                                    ;              ;
+;    |edgedetectV:Vert|                                                                                   ; 38 (38)           ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|edgedetectV:Vert                                                                                                                                                                                                                                                                                                                     ;              ;
+;    |intensityCalc:iFor[0].iCalc|                                                                        ; 11 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[0].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[1].iCalc|                                                                        ; 9 (9)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[1].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[2].iCalc|                                                                        ; 11 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[2].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[3].iCalc|                                                                        ; 9 (9)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[3].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[5].iCalc|                                                                        ; 9 (9)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[5].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[6].iCalc|                                                                        ; 11 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[6].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[7].iCalc|                                                                        ; 9 (9)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[7].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |intensityCalc:iFor[8].iCalc|                                                                        ; 11 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|intensityCalc:iFor[8].iCalc                                                                                                                                                                                                                                                                                                          ;              ;
+;    |sld_hub:auto_hub|                                                                                   ; 140 (1)           ; 94 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                     ;              ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                    ; 139 (101)         ; 94 (66)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                        ;              ;
 ;          |sld_rom_sr:hub_info_reg|                                                                      ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                ;              ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                                    ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                                                                                              ;              ;
 ;    |sld_signaltap:auto_signaltap_0|                                                                     ; 317 (1)           ; 486 (30)     ; 61440       ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |DE2i_150_TV|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                                                                       ;              ;
@@ -606,6 +664,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram|ALTSYNCRAM                                                                ; M9K  ; Simple Dual Port ; 512          ; 16           ; 512          ; 16           ; 8192  ; None ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram|ALTSYNCRAM                                                               ; M9K  ; Simple Dual Port ; 512          ; 16           ; 512          ; 16           ; 8192  ; None ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|altsyncram_lj51:fifo_ram|ALTSYNCRAM                                                               ; M9K  ; Simple Dual Port ; 512          ; 16           ; 512          ; 16           ; 8192  ; None ;
+; altshift_taps:temp_buffer_rtl_0|shift_taps_2am:auto_generated|altsyncram_lo31:altsyncram4|ALTSYNCRAM                                                                                                  ; AUTO ; Simple Dual Port ; 3            ; 12           ; 3            ; 12           ; 36    ; None ;
+; buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated|altsyncram_iu81:altsyncram2|ALTSYNCRAM                                                                                        ; AUTO ; Simple Dual Port ; 1278         ; 12           ; 1278         ; 12           ; 15336 ; None ;
+; buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated|altsyncram_mr81:altsyncram2|ALTSYNCRAM                                                                                        ; AUTO ; Simple Dual Port ; 636          ; 36           ; 636          ; 36           ; 22896 ; None ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_u424:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 4096         ; 15           ; 4096         ; 15           ; 61440 ; None ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+------+
 
@@ -718,6 +779,26 @@ Encoding Type:  One-Hot
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp|dffe12a[9]                                  ; Lost fanout                                                                                                                                          ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_bwp|dffe12a[9]                                  ; Lost fanout                                                                                                                                          ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|dffpipe_oe9:rs_brp|dffe12a[9]                                  ; Lost fanout                                                                                                                                          ;
+; intensityCalc:iFor[8].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[7].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[6].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[5].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[3].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[2].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[1].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; intensityCalc:iFor[0].iCalc|oIntensity[0..3]                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                               ;
+; buffer3:delayer|line2[639][16]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[16]                                                                                                             ;
+; buffer3:delayer|line2[639][9]                                                                                                                                      ; Merged with buffer3:delayer|shiftout[9]                                                                                                              ;
+; buffer3:delayer|line2[639][8]                                                                                                                                      ; Merged with buffer3:delayer|shiftout[8]                                                                                                              ;
+; buffer3:delayer|line2[639][7]                                                                                                                                      ; Merged with buffer3:delayer|shiftout[7]                                                                                                              ;
+; buffer3:delayer|line2[639][6]                                                                                                                                      ; Merged with buffer3:delayer|shiftout[6]                                                                                                              ;
+; buffer3:delayer|line2[639][17]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[17]                                                                                                             ;
+; buffer3:delayer|line2[639][18]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[18]                                                                                                             ;
+; buffer3:delayer|line2[639][19]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[19]                                                                                                             ;
+; buffer3:delayer|line2[639][26]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[26]                                                                                                             ;
+; buffer3:delayer|line2[639][27]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[27]                                                                                                             ;
+; buffer3:delayer|line2[639][28]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[28]                                                                                                             ;
+; buffer3:delayer|line2[639][29]                                                                                                                                     ; Merged with buffer3:delayer|shiftout[29]                                                                                                             ;
 ; Sdram_Control_4Port:u6|rWR2_ADDR[0..21]                                                                                                                            ; Merged with Sdram_Control_4Port:u6|rWR2_ADDR[22]                                                                                                     ;
 ; I2C_AV_Config:u1|mI2C_DATA[20,21]                                                                                                                                  ; Merged with I2C_AV_Config:u1|mI2C_DATA[18]                                                                                                           ;
 ; I2C_AV_Config:u1|I2C_Controller:u0|SD[20,21]                                                                                                                       ; Merged with I2C_AV_Config:u1|I2C_Controller:u0|SD[18]                                                                                                ;
@@ -748,9 +829,9 @@ Encoding Type:  One-Hot
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p|counter5a9                         ; Stuck at GND due to stuck port clock_enable                                                                                                          ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p|sub_parity7a[0..2]                 ; Stuck at GND due to stuck port data_in                                                                                                               ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p|counter5a0                         ; Stuck at VCC due to stuck port data_in                                                                                                               ;
+; YCbCr2RGB:u8|X_OUT[0,1]                                                                                                                                            ; Lost fanout                                                                                                                                          ;
 ; YCbCr2RGB:u8|Z_OUT[0,1]                                                                                                                                            ; Lost fanout                                                                                                                                          ;
 ; YCbCr2RGB:u8|Y_OUT[0,1]                                                                                                                                            ; Lost fanout                                                                                                                                          ;
-; YCbCr2RGB:u8|X_OUT[0,1]                                                                                                                                            ; Lost fanout                                                                                                                                          ;
 ; Sdram_Control_4Port:u6|rWR1_ADDR[0]                                                                                                                                ; Stuck at GND due to stuck port data_in                                                                                                               ;
 ; Sdram_Control_4Port:u6|rRD2_ADDR[0]                                                                                                                                ; Stuck at GND due to stuck port data_in                                                                                                               ;
 ; Sdram_Control_4Port:u6|rRD1_ADDR[0]                                                                                                                                ; Stuck at GND due to stuck port data_in                                                                                                               ;
@@ -759,7 +840,7 @@ Encoding Type:  One-Hot
 ; I2C_AV_Config:u1|mSetup_ST~9                                                                                                                                       ; Lost fanout                                                                                                                                          ;
 ; I2C_AV_Config:u1|mSetup_ST~10                                                                                                                                      ; Lost fanout                                                                                                                                          ;
 ; Sdram_Control_4Port:u6|mWR                                                                                                                                         ; Merged with Sdram_Control_4Port:u6|WR_MASK[0]                                                                                                        ;
-; Total Number of Removed Registers = 218                                                                                                                            ;                                                                                                                                                      ;
+; Total Number of Removed Registers = 262                                                                                                                            ;                                                                                                                                                      ;
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -873,12 +954,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1600  ;
+; Total registers                              ; 1779  ;
 ; Number of registers using Synchronous Clear  ; 141   ;
 ; Number of registers using Synchronous Load   ; 92    ;
 ; Number of registers using Asynchronous Clear ; 1084  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 679   ;
+; Number of registers using Clock Enable       ; 772   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -888,13 +969,13 @@ Encoding Type:  One-Hot
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; Inverted Register                                                                                                                                                              ; Fan out ;
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[0]                                                                                                                               ; 18      ;
+; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[0]                                                                                                                               ; 19      ;
 ; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[1]                                                                                                                               ; 15      ;
 ; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[4]                                                                                                                               ; 11      ;
-; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[2]                                                                                                                               ; 14      ;
-; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[3]                                                                                                                               ; 17      ;
+; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[2]                                                                                                                               ; 13      ;
+; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[3]                                                                                                                               ; 18      ;
 ; I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[5]                                                                                                                               ; 11      ;
-; I2C_AV_Config:u1|I2C_Controller:u0|SCLK                                                                                                                                        ; 3       ;
+; I2C_AV_Config:u1|I2C_Controller:u0|SCLK                                                                                                                                        ; 2       ;
 ; VGA_Ctrl:u9|oVGA_HS                                                                                                                                                            ; 14      ;
 ; VGA_Ctrl:u9|oVGA_VS                                                                                                                                                            ; 2       ;
 ; I2C_AV_Config:u1|I2C_Controller:u0|END                                                                                                                                         ; 5       ;
@@ -907,7 +988,7 @@ Encoding Type:  One-Hot
 ; Sdram_Control_4Port:u6|rRD1_ADDR[13]                                                                                                                                           ; 4       ;
 ; Sdram_Control_4Port:u6|rRD2_ADDR[17]                                                                                                                                           ; 3       ;
 ; DIV:u5|lpm_divide:LPM_DIVIDE_component|lpm_divide_pet:auto_generated|sign_div_unsign_3li:divider|alt_u_div_5ag:divider|DFFDenominator[1]                                       ; 10      ;
-; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p|counter8a0                                     ; 7       ;
+; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p|counter8a0                                     ; 6       ;
 ; Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_va7:rdptr_g1p|parity6                                        ; 4       ;
 ; Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo2|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p|parity9                                         ; 4       ;
 ; Sdram_Control_4Port:u6|Sdram_RD_FIFO:read_fifo1|dcfifo:dcfifo_component|dcfifo_dmq1:auto_generated|a_graycounter_roc:wrptr_g1p|parity9                                         ; 4       ;
@@ -938,32 +1019,47 @@ Encoding Type:  One-Hot
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
++----------------------------------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                                                 ;
++---------------------------------------------------+-----------------------------+------------+
+; Register Name                                     ; Megafunction                ; Type       ;
++---------------------------------------------------+-----------------------------+------------+
+; buffer3:delayer|shiftout[2..5,12..15,22..25]      ; buffer3:delayer|line1_rtl_0 ; SHIFT_TAPS ;
+; buffer3:delayer|line2[0..638][2..5,12..15,22..25] ; buffer3:delayer|line1_rtl_0 ; SHIFT_TAPS ;
+; buffer3:delayer|line1[0..639][2..5,12..15,22..25] ; buffer3:delayer|line1_rtl_0 ; SHIFT_TAPS ;
+; buffer3:delayer|line3[0..637][6..9,16..19,26..29] ; buffer3:delayer|line3_rtl_0 ; SHIFT_TAPS ;
+; buffer3:delayer|line1[0..637][6..9,16..19,26..29] ; buffer3:delayer|line3_rtl_0 ; SHIFT_TAPS ;
+; buffer3:delayer|line2[0..637][6..9,16..19,26..29] ; buffer3:delayer|line3_rtl_0 ; SHIFT_TAPS ;
+; temp_buffer[0..2][6..9,16..19,26..29]             ; temp_buffer_rtl_0           ; SHIFT_TAPS ;
++---------------------------------------------------+-----------------------------+------------+
+
+
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|control_interface:control1|timer[1]                                            ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|command_delay[3]                                              ;
-; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |DE2i_150_TV|ITU_656_Decoder:u4|Cont[2]                                                                            ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|SA[8]                                                         ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|SA[2]                                                         ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|YCbCr2RGB:u8|oBlue[3]                                                                                 ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|YCbCr2RGB:u8|oGreen[3]                                                                                ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|YCbCr2RGB:u8|oRed[6]                                                                                  ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|mADDR[0]                                                                       ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|rp_shift[2]                                                   ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |DE2i_150_TV|ITU_656_Decoder:u4|YCbCr[1]                                                                           ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|control_interface:control1|timer[15]                                           ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|command_delay[1]                                              ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |DE2i_150_TV|ITU_656_Decoder:u4|Cont[16]                                                                           ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|SA[11]                                                        ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|SA[7]                                                         ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|YCbCr2RGB:u8|oRed[7]                                                                                  ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|YCbCr2RGB:u8|oBlue[7]                                                                                 ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|YCbCr2RGB:u8|oGreen[9]                                                                                ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|mADDR[11]                                                                      ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|command:command1|rp_shift[0]                                                   ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |DE2i_150_TV|ITU_656_Decoder:u4|YCbCr[4]                                                                           ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|WR_MASK[0]                                                                     ;
 ; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|RD_MASK[1]                                                                     ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|CMD[1]                                                                         ;
-; 7:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|ST[1]                                                                          ;
-; 4:1                ; 11 bits   ; 22 LEs        ; 11 LEs               ; 11 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD1_ADDR[13]                                                                  ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD1_ADDR[9]                                                                   ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rWR1_ADDR[21]                                                                  ;
-; 4:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD2_ADDR[13]                                                                  ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD2_ADDR[10]                                                                  ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DE2i_150_TV|I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[3]                                                      ;
+; 7:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|ST[9]                                                                          ;
+; 4:1                ; 11 bits   ; 22 LEs        ; 11 LEs               ; 11 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD1_ADDR[15]                                                                  ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD1_ADDR[12]                                                                  ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rWR1_ADDR[11]                                                                  ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD2_ADDR[21]                                                                  ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DE2i_150_TV|Sdram_Control_4Port:u6|rRD2_ADDR[12]                                                                  ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DE2i_150_TV|I2C_AV_Config:u1|I2C_Controller:u0|SD_COUNTER[1]                                                      ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|hub_minor_ver_reg[1]                    ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; Yes        ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irf_reg[1][5]                           ;
 ; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |DE2i_150_TV|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|mixer_addr_reg[0]                       ;
@@ -1618,6 +1714,33 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+---------------------------------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                         ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for buffer3:delayer|altshift_taps:line1_rtl_0|shift_taps_70n:auto_generated|altsyncram_iu81:altsyncram2 ;
++---------------------------------+--------------------+------+--------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                           ;
++---------------------------------+--------------------+------+--------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                            ;
++---------------------------------+--------------------+------+--------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for buffer3:delayer|altshift_taps:line3_rtl_0|shift_taps_3vm:auto_generated|altsyncram_mr81:altsyncram2 ;
++---------------------------------+--------------------+------+--------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                           ;
++---------------------------------+--------------------+------+--------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                            ;
++---------------------------------+--------------------+------+--------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Source assignments for altshift_taps:temp_buffer_rtl_0|shift_taps_2am:auto_generated|altsyncram_lo31:altsyncram4 ;
++---------------------------------+--------------------+------+----------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                 ;
++---------------------------------+--------------------+------+----------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                  ;
++---------------------------------+--------------------+------+----------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------+
@@ -2905,12 +3028,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; H_ACT          ; 640   ; Signed Integer                  ;
 ; H_BLANK        ; 160   ; Signed Integer                  ;
 ; H_TOTAL        ; 800   ; Signed Integer                  ;
+; H_DLY          ; 2     ; Signed Integer                  ;
 ; V_FRONT        ; 11    ; Signed Integer                  ;
 ; V_SYNC         ; 2     ; Signed Integer                  ;
 ; V_BACK         ; 31    ; Signed Integer                  ;
 ; V_ACT          ; 480   ; Signed Integer                  ;
 ; V_BLANK        ; 44    ; Signed Integer                  ;
 ; V_TOTAL        ; 524   ; Signed Integer                  ;
+; V_DLY          ; 2     ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -3015,6 +3140,51 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: buffer3:delayer|altshift_taps:line1_rtl_0 ;
++----------------+----------------+----------------------------------------------------------+
+; Parameter Name ; Value          ; Type                                                     ;
++----------------+----------------+----------------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                                  ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                                  ;
+; TAP_DISTANCE   ; 1280           ; Untyped                                                  ;
+; WIDTH          ; 12             ; Untyped                                                  ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                                  ;
+; CBXI_PARAMETER ; shift_taps_70n ; Untyped                                                  ;
++----------------+----------------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: buffer3:delayer|altshift_taps:line3_rtl_0 ;
++----------------+----------------+----------------------------------------------------------+
+; Parameter Name ; Value          ; Type                                                     ;
++----------------+----------------+----------------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                                  ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                                  ;
+; TAP_DISTANCE   ; 638            ; Untyped                                                  ;
+; WIDTH          ; 36             ; Untyped                                                  ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                                  ;
+; CBXI_PARAMETER ; shift_taps_3vm ; Untyped                                                  ;
++----------------+----------------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: altshift_taps:temp_buffer_rtl_0 ;
++----------------+----------------+------------------------------------------------+
+; Parameter Name ; Value          ; Type                                           ;
++----------------+----------------+------------------------------------------------+
+; WIDTH_BYTEENA  ; 1              ; Untyped                                        ;
+; NUMBER_OF_TAPS ; 1              ; Untyped                                        ;
+; TAP_DISTANCE   ; 3              ; Untyped                                        ;
+; WIDTH          ; 12             ; Untyped                                        ;
+; POWER_UP_STATE ; CLEARED        ; Untyped                                        ;
+; CBXI_PARAMETER ; shift_taps_2am ; Untyped                                        ;
++----------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------+
 ; altpll Parameter Settings by Entity Instance                                                        ;
 +-------------------------------+---------------------------------------------------------------------+
@@ -3109,7 +3279,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------------------+-------------------------------------------------------+
 ; Name                       ; Value                                                 ;
 +----------------------------+-------------------------------------------------------+
-; Number of entity instances ; 2                                                     ;
+; Number of entity instances ; 5                                                     ;
 ; Entity Instance            ; Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component ;
 ;     -- NUMBER_OF_TAPS      ; 1                                                     ;
 ;     -- TAP_DISTANCE        ; 640                                                   ;
@@ -3118,6 +3288,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- NUMBER_OF_TAPS      ; 1                                                     ;
 ;     -- TAP_DISTANCE        ; 640                                                   ;
 ;     -- WIDTH               ; 16                                                    ;
+; Entity Instance            ; buffer3:delayer|altshift_taps:line1_rtl_0             ;
+;     -- NUMBER_OF_TAPS      ; 1                                                     ;
+;     -- TAP_DISTANCE        ; 1280                                                  ;
+;     -- WIDTH               ; 12                                                    ;
+; Entity Instance            ; buffer3:delayer|altshift_taps:line3_rtl_0             ;
+;     -- NUMBER_OF_TAPS      ; 1                                                     ;
+;     -- TAP_DISTANCE        ; 638                                                   ;
+;     -- WIDTH               ; 36                                                    ;
+; Entity Instance            ; altshift_taps:temp_buffer_rtl_0                       ;
+;     -- NUMBER_OF_TAPS      ; 1                                                     ;
+;     -- TAP_DISTANCE        ; 3                                                     ;
+;     -- WIDTH               ; 12                                                    ;
 +----------------------------+-------------------------------------------------------+
 
 
@@ -3161,6 +3343,140 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; oVGA_B[1..0]      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
 ; oAddress          ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
 +-------------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[8].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[7].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[6].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[5].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[4].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[3].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[2].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[1].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "intensityCalc:iFor[0].iCalc" ;
++----------+-------+----------+---------------------------+
+; Port     ; Type  ; Severity ; Details                   ;
++----------+-------+----------+---------------------------+
+; iR[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iG[5..0] ; Input ; Info     ; Stuck at GND              ;
+; iB[5..0] ; Input ; Info     ; Stuck at GND              ;
++----------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "buffer3:delayer"                                                                               ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                             ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; oGrid[265..260] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[255..250] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[245..240] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[235..230] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[225..220] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[215..210] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[205..200] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[195..190] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[185..180] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[175..170] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[165..160] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[155..150] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[145..140] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[135..130] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[125..120] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[115..110] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[105..100] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[95..90]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[85..80]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[75..70]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[65..60]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[55..50]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[45..40]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[35..30]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[25..20]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[15..10]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; oGrid[5..0]     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------+
@@ -3445,7 +3761,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------+--------------+
 ; Partition Name   ; Elapsed Time ;
 +------------------+--------------+
-; Top              ; 00:00:06     ;
+; Top              ; 00:00:39     ;
 ; sld_hub:auto_hub ; 00:00:01     ;
 +------------------+--------------+
 
@@ -3495,7 +3811,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Wed Apr 09 16:52:04 2014
+    Info: Processing started: Fri Apr 11 17:43:26 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE2i_150_TV -c DE2i_150_TV
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file v/yuv422_to_444.v
@@ -3554,9 +3870,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file sdram_c
     Info (12023): Found entity 1: command
 Info (12021): Found 1 design units, including 1 entities, in source file newmodule.v
     Info (12023): Found entity 1: NewModule
+Info (12021): Found 1 design units, including 1 entities, in source file buffer3.v
+    Info (12023): Found entity 1: buffer3
+Info (12021): Found 1 design units, including 1 entities, in source file intensitycalc.v
+    Info (12023): Found entity 1: intensityCalc
+Info (12021): Found 1 design units, including 1 entities, in source file edgedetecth.v
+    Info (12023): Found entity 1: edgedetectH
+Info (12021): Found 1 design units, including 1 entities, in source file edgedetectv.v
+    Info (12023): Found entity 1: edgedetectV
 Warning (10236): Verilog HDL Implicit Net warning at DE2i_150_TV.v(582): created implicit net for "DRAM_BA_1"
 Warning (10236): Verilog HDL Implicit Net warning at DE2i_150_TV.v(582): created implicit net for "DRAM_BA_0"
 Info (12127): Elaborating entity "DE2i_150_TV" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at DE2i_150_TV.v(666): object "Intensity3" assigned a value but never read
 Warning (10230): Verilog HDL assignment warning at DE2i_150_TV.v(485): truncated value with size 11 to match size of target (9)
 Warning (10034): Output port "DRAM_BA" at DE2i_150_TV.v(245) has no driver
 Warning (10034): Output port "DRAM_DQM[3..2]" at DE2i_150_TV.v(251) has no driver
@@ -3822,10 +4147,14 @@ Info (12128): Elaborating entity "ded_mult_4k91" for hierarchy "YCbCr2RGB:u8|MAC
 Info (12021): Found 1 design units, including 1 entities, in source file db/dffpipe_b3c.tdf
     Info (12023): Found entity 1: dffpipe_b3c
 Info (12128): Elaborating entity "dffpipe_b3c" for hierarchy "YCbCr2RGB:u8|MAC_3:u0|altmult_add:ALTMULT_ADD_component|mult_add_gn74:auto_generated|ded_mult_4k91:ded_mult1|dffpipe_b3c:pre_result"
+Info (12128): Elaborating entity "buffer3" for hierarchy "buffer3:delayer"
+Info (12128): Elaborating entity "intensityCalc" for hierarchy "intensityCalc:iFor[0].iCalc"
+Info (12128): Elaborating entity "edgedetectH" for hierarchy "edgedetectH:Horiz"
+Info (12128): Elaborating entity "edgedetectV" for hierarchy "edgedetectV:Vert"
 Info (12128): Elaborating entity "VGA_Ctrl" for hierarchy "VGA_Ctrl:u9"
-Warning (10230): Verilog HDL assignment warning at VGA_Ctrl.v(67): truncated value with size 32 to match size of target (22)
-Warning (10230): Verilog HDL assignment warning at VGA_Ctrl.v(70): truncated value with size 32 to match size of target (11)
-Warning (10230): Verilog HDL assignment warning at VGA_Ctrl.v(71): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at VGA_Ctrl.v(72): truncated value with size 32 to match size of target (22)
+Warning (10230): Verilog HDL assignment warning at VGA_Ctrl.v(75): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at VGA_Ctrl.v(76): truncated value with size 32 to match size of target (11)
 Info (12128): Elaborating entity "Line_Buffer" for hierarchy "Line_Buffer:u10"
 Info (12128): Elaborating entity "altshift_taps" for hierarchy "Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component"
 Info (12130): Elaborated megafunction instantiation "Line_Buffer:u10|altshift_taps:ALTSHIFT_TAPS_component"
@@ -3859,6 +4188,215 @@ Info (12128): Elaborating entity "I2C_Controller" for hierarchy "I2C_AV_Config:u
 Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(78): truncated value with size 32 to match size of target (1)
 Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(77): truncated value with size 32 to match size of target (1)
 Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(90): truncated value with size 32 to match size of target (6)
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[9]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[8]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[7]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[6]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[5]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[4]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[3]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[2]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[1]" is missing source, defaulting to GND
+    Warning (12110): Net "Edge_Threshold[0]" is missing source, defaulting to GND
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_u424.tdf
     Info (12023): Found entity 1: altsyncram_u424
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_n0d.tdf
@@ -3882,6 +4420,58 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
 Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
 Info (13014): Ignored 80 buffer(s)
     Info (13019): Ignored 80 SOFT buffer(s)
+Info (19000): Inferred 3 megafunctions from design logic
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "buffer3:delayer|line1_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 1280
+        Info (286033): Parameter WIDTH set to 12
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "buffer3:delayer|line3_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 638
+        Info (286033): Parameter WIDTH set to 36
+    Info (276034): Inferred altshift_taps megafunction from the following design logic: "temp_buffer_rtl_0"
+        Info (286033): Parameter NUMBER_OF_TAPS set to 1
+        Info (286033): Parameter TAP_DISTANCE set to 3
+        Info (286033): Parameter WIDTH set to 12
+Info (12130): Elaborated megafunction instantiation "buffer3:delayer|altshift_taps:line1_rtl_0"
+Info (12133): Instantiated megafunction "buffer3:delayer|altshift_taps:line1_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "1280"
+    Info (12134): Parameter "WIDTH" = "12"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_70n.tdf
+    Info (12023): Found entity 1: shift_taps_70n
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_iu81.tdf
+    Info (12023): Found entity 1: altsyncram_iu81
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_f3g.tdf
+    Info (12023): Found entity 1: cntr_f3g
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_2mc.tdf
+    Info (12023): Found entity 1: cmpr_2mc
+Info (12130): Elaborated megafunction instantiation "buffer3:delayer|altshift_taps:line3_rtl_0"
+Info (12133): Instantiated megafunction "buffer3:delayer|altshift_taps:line3_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "638"
+    Info (12134): Parameter "WIDTH" = "36"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_3vm.tdf
+    Info (12023): Found entity 1: shift_taps_3vm
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_mr81.tdf
+    Info (12023): Found entity 1: altsyncram_mr81
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_r1g.tdf
+    Info (12023): Found entity 1: cntr_r1g
+Info (12130): Elaborated megafunction instantiation "altshift_taps:temp_buffer_rtl_0"
+Info (12133): Instantiated megafunction "altshift_taps:temp_buffer_rtl_0" with the following parameter:
+    Info (12134): Parameter "NUMBER_OF_TAPS" = "1"
+    Info (12134): Parameter "TAP_DISTANCE" = "3"
+    Info (12134): Parameter "WIDTH" = "12"
+Info (12021): Found 1 design units, including 1 entities, in source file db/shift_taps_2am.tdf
+    Info (12023): Found entity 1: shift_taps_2am
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_lo31.tdf
+    Info (12023): Found entity 1: altsyncram_lo31
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_s7e.tdf
+    Info (12023): Found entity 1: add_sub_s7e
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_0tf.tdf
+    Info (12023): Found entity 1: cntr_0tf
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_ikc.tdf
+    Info (12023): Found entity 1: cmpr_ikc
 Warning (12241): 13 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13039): The following bidir pins have no drivers
     Warning (13040): Bidir "EEP_I2C_SDAT" has no driver
@@ -4229,18 +4819,18 @@ Warning (21074): Design contains 28 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SMA_CLKIN"
     Warning (15610): No output dependent on input pin "UART_CTS"
     Warning (15610): No output dependent on input pin "UART_RXD"
-Info (21057): Implemented 3106 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3533 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 63 input pins
     Info (21059): Implemented 201 output pins
     Info (21060): Implemented 199 bidirectional pins
-    Info (21061): Implemented 2512 logic cells
-    Info (21064): Implemented 111 RAM segments
+    Info (21061): Implemented 2879 logic cells
+    Info (21064): Implemented 171 RAM segments
     Info (21065): Implemented 1 PLLs
     Info (21062): Implemented 18 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 401 warnings
-    Info: Peak virtual memory: 625 megabytes
-    Info: Processing ended: Wed Apr 09 16:52:31 2014
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:25
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 611 warnings
+    Info: Peak virtual memory: 818 megabytes
+    Info: Processing ended: Fri Apr 11 17:44:46 2014
+    Info: Elapsed time: 00:01:20
+    Info: Total CPU time (on all processors): 00:01:19
 
 

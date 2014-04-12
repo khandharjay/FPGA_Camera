@@ -423,9 +423,9 @@ wire	[9:0]	TV_X;
 wire			TV_DVAL;
 
 //	For VGA Controller
-wire	[9:0]	mRed;
-wire	[9:0]	mGreen;
-wire	[9:0]	mBlue;
+wire	[9:0]	mRed, mux_Red;
+wire	[9:0]	mGreen, mux_Green;
+wire	[9:0]	mBlue, mux_Blue;
 wire	[10:0]	VGA_X;
 wire	[10:0]	VGA_Y;
 wire			VGA_Read;	//	VGA data request
@@ -617,25 +617,90 @@ YCbCr2RGB 			u8	(	//	Output Side
 							.iCLK(TD_CLK27));
 							
 							
+wire [29:0] grid [8:0];	
+wire [29:0] temp_pixel;
+reg  [29:0] temp_buffer[2:0];
 
 
-//	For the new Module Controller
-//wire	[9:0]	tempRed;
-//wire	[9:0]	tempGreen;
-//wire	[9:0]	tempBlue;
+//Buffer of shift registers to store 3 lines 
+
+buffer3 	delayer(
+	.clock		(TD_CLK27),
+	.clken		(Shift_En),
+	.shiftin		({mRed,mGreen,mBlue}),
+	.shiftout   (temp_pixel),
+	.oGrid		({grid[8],grid[7],grid[6],
+					  grid[5],grid[4],grid[3],
+					  grid[2],grid[1],grid[0]}) 
+);
+
+
+									
+
+always @(posedge TD_CLK27)
+begin
+temp_buffer[0] = temp_buffer[1];
+temp_buffer[1] = temp_buffer[2];
+temp_buffer[2] = temp_pixel;
+end
+
+
+//Intensity Calculators---------------------------------//
+wire [9:0] intensity [8:0];
+
+genvar i;
+generate
+	for(i=0;i<9;i=i+1) begin:iFor
+		intensityCalc iCalc(
+			.iCLK			(TD_CLK27),
+			.iR			({grid[i][29:26],6'b0}),
+			.iG			({grid[i][19:16],6'b0}),
+			.iB			({grid[i][9:6],6'b0}),
+			.oIntensity	(intensity[i])
+		);
+	end
+endgenerate
+
+
+
+reg [9:0] Intensity3;
+always @(posedge TD_CLK27) begin
+	Intensity3 <= intensity[4];
+end
+
+
+reg [9:0]  Edge_Threshold;
+wire		  vert_edge, horiz_edge, is_edge;
+
+initial begin
+	Edge_Threshold	<= 10'h0C0;
+end
+
+//Edge Detection Modules------------------------------------------//
+edgedetectH		Horiz(.clock(TD_CLK27),
+							.iGrid({intensity[8],intensity[7],intensity[6],
+									  intensity[5],intensity[4],intensity[3],
+									  intensity[2],intensity[1],intensity[0]}),
+							.iThreshold(Edge_Threshold),
+							.oPixel(horiz_edge)
+							);
 							
-/*NewModule u21(.iRed(mRed),
-				  .iGreen(mGreen),
-		   	  .iBlue(mBlue),
-				  .iCLK(TD_CLK27),
-				  .iRESET(!DLY2),
-				  .oRed(tempRed),
-				  .oGreen(tempGreen),
-				  .oBlue(tempBlue));
-				 
-				  
-				*/
-							
+edgedetectV		 Vert(.clock(TD_CLK27),
+							.iGrid({intensity[8],intensity[7],intensity[6],
+									  intensity[5],intensity[4],intensity[3],
+									  intensity[2],intensity[1],intensity[0]}),
+							.iThreshold(Edge_Threshold),
+							.oPixel(vert_edge)
+							);
+								
+assign is_edge = horiz_edge | vert_edge;
+
+
+assign mux_Red   = (is_edge) ? (10'd0) : (temp_buffer[0][29:20]);
+assign mux_Green = (is_edge) ? (10'd0) : (temp_buffer[0][19:10]);
+assign mux_Blue  = (is_edge) ? (10'd0) : (temp_buffer[0][9:0]);
+
+
 //	VGA Controller
 wire [9:0] vga_r10;
 wire [9:0] vga_g10;
@@ -643,15 +708,16 @@ wire [9:0] vga_b10;
 assign VGA_R = vga_r10[9:2];
 assign VGA_G = vga_g10[9:2];
 assign VGA_B = vga_b10[9:2];
-
+wire			Shift_En;
 							
 VGA_Ctrl			u9	(	//	Host Side
-							.iRed(mRed),
-							.iGreen(mGreen),
-							.iBlue(mBlue),
+							.iRed(mux_Red),
+							.iGreen(mux_Green),
+							.iBlue(mux_Blue),
 							.oCurrent_X(VGA_X),
 							.oCurrent_Y(VGA_Y),
 							.oRequest(VGA_Read),
+							.oShift_Flag(Shift_En),
 							//	VGA Side
 							.oVGA_R(vga_r10 ),
 							.oVGA_G(vga_g10 ),
@@ -664,6 +730,7 @@ VGA_Ctrl			u9	(	//	Host Side
 							//	Control Signal
 							.iCLK(TD_CLK27),
 							.iRST_N(DLY2)	);
+
 
 
 //	Line buffer, delay one line
