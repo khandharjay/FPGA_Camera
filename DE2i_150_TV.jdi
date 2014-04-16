@@ -1,10 +1,10 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="d487e956936339f9c665"/>
+    <hash md5_digest_80b="70fb2c0b9813774703ab"/>
   </project>
   <file_info>
-    <file checksum="0x008C9451" device="EP4CGX150DF31C7" path="DE2i_150_TV.sof" usercode="0xFFFFFFFF"/>
-    <file checksum="0x6BD30281" device="EPCQ64" path="DE2i_150_TV.pof" usercode="0x00000000"/>
+    <file checksum="0x008C6EE0" device="EP4CGX150DF31C7" path="DE2i_150_TV.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x6BDA59EF" device="EPCQ64" path="DE2i_150_TV.pof" usercode="0x00000000"/>
   </file_info>
   <hub_info ir_width="8" node_count="1"/>
   <node_info>
