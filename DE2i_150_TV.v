@@ -639,9 +639,9 @@ buffer3 	delayer(
 
 always @(posedge TD_CLK27)
 begin
-temp_buffer[0] = temp_buffer[1];
-temp_buffer[1] = temp_buffer[2];
-temp_buffer[2] = temp_pixel;
+temp_buffer[0] <= temp_buffer[1];
+//temp_buffer[1] <= temp_buffer[2];
+temp_buffer[1] <= temp_pixel;
 end
 
 
@@ -673,8 +673,24 @@ reg [9:0]  Edge_Threshold;
 wire		  vert_edge, horiz_edge, is_edge;
 
 initial begin
-	Edge_Threshold	<= 10'h0C0;
+	Edge_Threshold	<= 10'h0F0;
 end
+
+wire newkey2;
+newPress		n1(.iCLK(TD_CLK27), .iKey(~KEY[2]), .oNewPress(newkey2));
+
+always @(posedge TD_CLK27 ) begin
+	
+	if(newkey2) begin
+		Edge_Threshold	<= SW[9:0];
+	end
+	else begin
+		Edge_Threshold	<= Edge_Threshold;
+	end
+end
+
+
+
 
 //Edge Detection Modules------------------------------------------//
 edgedetectH		Horiz(.clock(TD_CLK27),

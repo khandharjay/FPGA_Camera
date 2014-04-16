@@ -1,5 +1,5 @@
 Assembler report for DE2i_150_TV
-Fri Apr 11 17:46:57 2014
+Wed Apr 16 16:59:16 2014
 Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 11 17:46:57 2014 ;
+; Assembler Status      ; Successful - Wed Apr 16 16:59:16 2014 ;
 ; Revision Name         ; DE2i_150_TV                           ;
 ; Top-level Entity Name ; DE2i_150_TV                           ;
 ; Family                ; Cyclone IV GX                         ;
@@ -106,7 +106,7 @@ applicable agreement for further details.
 +----------------+--------------------------------------------------------------------------------+
 ; Device         ; EP4CGX150DF31C7                                                                ;
 ; JTAG usercode  ; 0xFFFFFFFF                                                                     ;
-; Checksum       ; 0x008C9451                                                                     ;
+; Checksum       ; 0x008C6EE0                                                                     ;
 +----------------+--------------------------------------------------------------------------------+
 
 
@@ -117,7 +117,7 @@ applicable agreement for further details.
 +--------------------+----------------------------------------------------------------------------+
 ; Device             ; EPCQ64                                                                     ;
 ; JTAG usercode      ; 0x00000000                                                                 ;
-; Checksum           ; 0x6BD30281                                                                 ;
+; Checksum           ; 0x6BDA59EF                                                                 ;
 ; Compression Ratio  ; 3                                                                          ;
 +--------------------+----------------------------------------------------------------------------+
 
@@ -128,14 +128,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Fri Apr 11 17:46:46 2014
+    Info: Processing started: Wed Apr 16 16:59:07 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DE2i_150_TV -c DE2i_150_TV
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 511 megabytes
-    Info: Processing ended: Fri Apr 11 17:46:57 2014
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Processing ended: Wed Apr 16 16:59:16 2014
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:09
 
 

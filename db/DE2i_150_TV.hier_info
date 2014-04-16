@@ -332,7 +332,7 @@ I2C_SDAT <> I2C_AV_Config:u1.I2C_SDAT
 IRDA_RXD => ~NO_FANOUT~
 KEY[0] => KEY[0].IN2
 KEY[1] => ~NO_FANOUT~
-KEY[2] => ~NO_FANOUT~
+KEY[2] => _.IN1
 KEY[3] => ~NO_FANOUT~
 LCD_DATA[0] <> <UNC>
 LCD_DATA[1] <> <UNC>
@@ -413,7 +413,7 @@ SW[14] => SW[14].IN1
 SW[15] => SW[15].IN1
 SW[16] => SW[16].IN1
 SW[17] => SW[17].IN1
-TD_CLK27 => TD_CLK27.IN22
+TD_CLK27 => TD_CLK27.IN23
 TD_DATA[0] => TD_DATA[0].IN1
 TD_DATA[1] => TD_DATA[1].IN1
 TD_DATA[2] => TD_DATA[2].IN1
@@ -126531,6 +126531,13 @@ oIntensity[6] <= oIntensity[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 oIntensity[7] <= oIntensity[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 oIntensity[8] <= oIntensity[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 oIntensity[9] <= oIntensity[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE2i_150_TV|newPress:n1
+iCLK => press[0].CLK
+iCLK => press[1].CLK
+iKey => press[0].DATAIN
+oNewPress <= oNewPress.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |DE2i_150_TV|edgedetectH:Horiz
